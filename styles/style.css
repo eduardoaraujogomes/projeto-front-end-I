@@ -16,12 +16,13 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
+    text-align: center;
 }
 
 .navigation {
     display: inline-block;
     width: 100%;
-    margin: 0 40%;
+    margin: 20px auto;
 }
 .navigation img {
     width: 30px;
@@ -51,7 +52,7 @@ header {
 
 .hero {
     margin-top: 100px;
-    width: 100%;
+    width: 100%;    
 }
 
 .hero--box {
@@ -59,31 +60,64 @@ header {
     display: inline-block;
     padding: 20px;
     margin: 20px;
-    position: relative;
-    top: -250px;
     background-color: #c9faf9;
+    position: relative;
+    top: -200px;
 }
 .box--h1 {
     font-family: 'Pacifico', cursive;
     font-size: 50px;
     line-height: 60px;
-    color: #385689;
+    color: #2b3e50;
     margin-bottom: 20px;
+    text-align: center;
 }
 .hero--box p {
     font-size: 18px;
     color: #777676;
     line-height: 30px;
+    text-align: justify;
+    max-width: 600px;
 }
 .hero--imagem {
     display: inline-block;
     width: 500px;
-    margin-left: 50px;
-    position: relative;
+    max-width: 500px;
+    margin-left: 10%;
     left: 50px;
     bottom: 50px;
 }
 
+.numbers {
+    display: inline-block; 
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#c9faf9 ;
+    position: relative;
+    text-align: center;
+}
+.numbers img {
+    display: inline-block;
+    position: absolute;
+    top: -125px;
+    left: 100px;
+}
+.numbers--box {
+    display: inline-block;
+    margin: 20px;
+    width: 15%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #777676;  
+}
+.numbers--box h3 {
+    text-decoration: underline;
+}
+.numbers--box p {
+    color: #000;
+}
 
 
 
