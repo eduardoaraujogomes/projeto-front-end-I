@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F1FDFB;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    background-color: #D4FFFE;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.navigation {
+    display: inline-block;
+    width: 100%;
+    margin: 0 40%;
+}
+.navigation img {
+    width: 30px;
+}
+.navigation ul {
+    display: inline;
+    width: 100%;
+}
+.navigation li {
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color:#c9faf9 ;
+    cursor: pointer;
+    font-size: 20px;
+}
+.navigation li a {
+    text-decoration: none;
+    color: #A49FA3;
+}
+.navigation li img {
+    position: relative;
+    top: 5px;
+}
+
+.hero {
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+
+
+.whatsapp {
+    width: 70px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+

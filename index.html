@@ -5,30 +5,42 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Pacifico&display=swap"
+            rel="stylesheet">
         <link rel="shortcut icon" href="./assets/favicon.png"
             type="image/x-icon">
+        <link rel="stylesheet" href="/styles/style.css">
         <title>Pet Animado</title>
     </head>
 
     <body>
         <header>
-            <div class="logo">
-                <img src="/assets/pets.png" alt="Animais reunidos">
-                <p>Pet animado</p>
-            </div>
             <nav class="navigation">
                 <ul>
-                    <li> <img src="./assets/nayla.png" alt="icone ilustrações">
-                        Ilustração</li>
-                    <li> <img src="./assets/howIcon.png"
-                            alt="icone cpmo funciona?"> Como funciona?
+                    <li>
+                        <a href="#">
+                            <img src="./assets/nayla.png"
+                                alt="icone ilustrações">
+                            Ilustração
+                        </a>
                     </li>
-                    <li> <img src="./assets/about.png" alt="icone sobre nós">
-                        Sobre nós</li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/howIcon.png"
+                                alt="icone cpmo funciona?"> Como funciona?
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/juninha.png"
+                                alt="icone sobre nós">
+                            Sobre nós
+                        </a>
+                    </li>
                 </ul>
             </nav>
-            <div class="button">Comece a Animar</div>
-
         </header>
         <main>
             <section class="hero">
@@ -37,10 +49,6 @@
                     <p>Descubra um novo jeito de expressar o seu amor pelo seu
                         animalzinho. Nós entregamos ilustrações digitais de alta
                         qualidade.</p>
-                    <div class="box--buttons">
-                        <button class="buttons--started button">Iniciar</button>
-                        <button class="buttons--watch">Assista ao vídeo</button>
-                    </div>
                 </div>
                 <div class="hero--imagem">
                     <img src="/assets/hero.png" alt="Cachorro">
@@ -64,7 +72,6 @@
             <section class="introducing">
                 <h2>Apresentando</h2>
                 <h3>nossos membros da família</h3>
-                <button class="button">Veja todos -></button>
                 <div id="introducing--box">
                     <div class="introducing--box">
                         <img src="./assets/juninha.png" alt="Foto da Juninha">
@@ -107,7 +114,8 @@
                 <button class="footer-enviar" type="submit">inscreva-se</button>
             </div>
         </footer>
-        <img class="whatsapp" src="" alt="">
+        <img class="whatsapp" src="/assets/whatsapp.svg"
+            alt="icone do whatsapp">
     </body>
 
 </html>
