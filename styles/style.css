@@ -42,7 +42,7 @@ header {
 }
 .navigation li a {
     text-decoration: none;
-    color: #A49FA3;
+    color: #777676;
 }
 .navigation li img {
     position: relative;
@@ -52,6 +52,36 @@ header {
 .hero {
     margin-top: 100px;
     width: 100%;
+}
+
+.hero--box {
+    width: 700px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: -250px;
+    background-color: #c9faf9;
+}
+.box--h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    line-height: 60px;
+    color: #385689;
+    margin-bottom: 20px;
+}
+.hero--box p {
+    font-size: 18px;
+    color: #777676;
+    line-height: 30px;
+}
+.hero--imagem {
+    display: inline-block;
+    width: 500px;
+    margin-left: 50px;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
 }
 
 
