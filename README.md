@@ -2,7 +2,7 @@
 Projeto desenvolvido para a matéria de Front end I do curso do CTD (Certified Tech Developer) da Digital House.
 
 
-## Passo que precisam ser seguidos 😉
+## Passos que precisaram ser seguidos 😉
 
 1.  Para o menu suspenso, você deverá usar uma cor de fundo à sua escolha.
 2.  O header precisa ter no mínimo um padding de 25px(pode fazer maior se precisar.
