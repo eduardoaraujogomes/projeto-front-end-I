@@ -22,5 +22,5 @@ Projeto desenvolvido para a matéria de Front end I do curso do CTD (Certified T
 17.  Disponibilize o link no canal proj-front até a nossa próxima aula
 
 ## Navegue pelo site 😺
-Basta acessar o link [Clicando aqui!](https://eduardoaraujogomes.github.io/projeto-front-end-I/)
+Basta acessar o link **[Clicando aqui!](https://eduardoaraujogomes.github.io/projeto-front-end-I/)**
 
