@@ -1,6 +1,9 @@
 # Primeiro Projeto de Front end I - Turma 03👨‍💻
 Projeto desenvolvido para a matéria de Front end I do curso do CTD (Certified Tech Developer) da Digital House.
 
+
+## Passo que precisam ser seguidos 😉
+
 1.  Para o menu suspenso, você deverá usar uma cor de fundo à sua escolha.
 2.  O header precisa ter no mínimo um padding de 25px(pode fazer maior se precisar.
 3.  As opções do menu suspenso precisam estar alinhadas corretamente.
@@ -17,3 +20,7 @@ Projeto desenvolvido para a matéria de Front end I do curso do CTD (Certified T
 15.  Clone o repositório na sua máquina
 16.  Faça hospedagem no git pages
 17.  Disponibilize o link no canal proj-front até a nossa próxima aula
+
+## Navegue pelo site 😺
+Basta acessar o link ``https://eduardoaraujogomes.github.io/projeto-front-end-I/``
+
