@@ -1,6 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 
+html {
+    scroll-behavior: smooth; /* para scroll do site ficar mais suave */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@ body {
     overflow-x: hidden;
 }
 
+/* mexendo no header do site */
 header {
     width: 100%;
     height: auto;
@@ -54,13 +59,15 @@ header {
     top: 5px;
 }
 
+/* hero do site */
+
 .hero {
     margin-top: 100px;
     width: 100%;    
 }
 
 .hero--box {
-    width: 700px;
+    width: 600px;
     display: inline-block;
     padding: 20px;
     margin: 20px;
@@ -92,6 +99,8 @@ header {
     bottom: 50px;
 }
 
+/* sections numbers */
+
 .numbers {
     display: inline-block; 
     width: 100%;
@@ -122,6 +131,8 @@ header {
 .numbers--box p {
     color: #000;
 }
+
+/* section ilustração */
 
 .illustration {
     width: 100%;
@@ -165,6 +176,8 @@ header {
     color: #777676;
 }
 
+/* section como fazer */
+
 .how {
     margin-top: 150px;
     width: 100%;   
@@ -183,6 +196,7 @@ header {
     width: 40%;
     margin-right: 50px;
     margin-left: 10px;
+    padding-bottom: 100px;
 }
 
 .how--box h4 {
@@ -200,14 +214,13 @@ header {
 
 .how--steps{
     display: inline-block;
-
     position: relative;
     top: -50px;
 }
 
 .how--steps li {
     list-style: none;
-    margin: 50px;
+    margin: 0px;
     font-size: 30px;
     color: #777676;
 }
@@ -222,6 +235,8 @@ header {
     color: #fff;
     text-align: center;
 }
+
+/* seção do footer */
 
 .footer {
     width: 100%;
@@ -245,6 +260,7 @@ header {
     margin: 10px 0;
 }
 
+/* fixando o whatsapp na tela */
 
 .whatsapp {
     width: 70px;
